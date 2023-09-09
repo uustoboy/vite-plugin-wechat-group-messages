@@ -1,0 +1,32 @@
+{
+  "name": "vite-plugin-wechat-group-messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uustoboy/vite-plugin-wechat-group-messages.git"
+  },
+  "keywords": [
+    "vite"
+  ],  
+  "type": "module",
+  "author": "uustooy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uustoboy/vite-plugin-wechat-group-messages/issues"
+  },
+  "homepage": "https://github.com/uustoboy/vite-plugin-wechat-group-messages#readme",
+  "devDependencies": {
+    "rollup": "^3.29.0"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "moment": "^2.29.4"
+  }
+}
